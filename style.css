@@ -79,7 +79,7 @@ nav li a:hover {
 }
 
 nav li a::before {
-  content: "";
+  content: '';
   width: 25vw;
   height: 3px;
   background-color: #fff;
@@ -127,13 +127,13 @@ nav li:nth-of-type(5) {
 }
 
 @keyframes slide-in {
- from {
-  transform: translateX(-100%);
- }
+  from {
+    transform: translateX(-100%);
+  }
 
- to {
-  transform: translateX(0);
- }
+  to {
+    transform: translateX(0);
+  }
 }
 
 /* Slide out animation with delay for each nav item */
@@ -154,13 +154,13 @@ nav li:nth-of-type(5) {
 }
 
 @keyframes slide-out {
- from {
-  transform: translateX(0);
- }
+  from {
+    transform: translateX(0);
+  }
 
- to {
-  transform: translateX(-100%);
- }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 /* --- Menu Bars ------------------------------------ */
